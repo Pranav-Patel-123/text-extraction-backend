@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+.env.bak/
+*.env
+
+# VS Code / PyCharm / IDE configs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Database files
+*.db
+*.sqlite3
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Static/Media uploads (if any)
+staticfiles/
+media/
+
+# Local test data
+test_output/
+tmp/
+
+# Docker
+*.pid
+*.pid.lock
+
+# Optional: if using poetry
+poetry.lock
+
+# Optional: if using pip-tools
+*.txt
+
+# Optional: if using Jupyter notebooks in backend (rare)
+.ipynb_checkpoints/
+
+# Optional: Starlette/FastAPI debug files
+instance/
